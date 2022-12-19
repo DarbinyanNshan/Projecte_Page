@@ -1,19 +1,15 @@
-import './App.css';
-import { Content, Image} from './content';
-import { Footer } from './footer';
-import { Header } from './header';
-import { NavBar } from './navbar';
+import { Section } from './Components/Home/header';
+import { Footer } from './Components/Home/footer';
+import { NavBar } from './Components/Home/navbar';
+
 
 
 function App() {
   return (
     <div className="App">
-   <NavBar/>
-   <Header/>
-   <Content/>
-   <Image /> 
-   <Footer/>
-  
+    <NavBar/>
+    <Section/>
+    <Footer/>
 
    
   

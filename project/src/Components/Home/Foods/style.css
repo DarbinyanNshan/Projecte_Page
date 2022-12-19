@@ -1,0 +1,65 @@
+.P-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.P-buttons button{
+    background-color: white;
+    border:1px solid #2F956D;
+    color:  #2F956D;
+    padding: 10px 30px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.P-buttons button:hover{
+    background-color: #2F956D;
+    color: white;
+}
+
+.P-food-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-evenly;
+}
+
+.P-food-box{
+    width: 250px;
+    text-align: center;
+}
+.P-food-box img{
+    
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    
+
+}
+.P-buttons .active{
+    background-color: #2F956D;
+    color: white;
+}
+.P-food-box>h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top:10px;
+}
+.P-food-box>p{
+    font-size: 0.95rem;
+    color: #626364;
+    line-height: 1.8;    
+    text-align: start;
+}
+.P-food-box>span{
+    font-size: 1.25rem;
+    color: #2F956D;
+    padding-top: 20px;
+    padding-right: 100px;
+    
+    
+}

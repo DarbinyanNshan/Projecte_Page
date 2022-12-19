@@ -1,0 +1,14 @@
+.P-main-section>h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.P-main-section>p{
+    color: #626364;
+    line-height: 1.8;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto 50px;
+}

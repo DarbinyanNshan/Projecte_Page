@@ -1,20 +1,24 @@
 .footer{
     display: flex;
+    margin-left: 50px;
 }
 .footer_img{
-    margin-top: 500px;
+    margin-top: 190px;
     margin-left: 190px;
+    max-width:100%;
+    height: 200px;
 }
 .footer_title{
     color: #1A6692;
     font-size: 1.3rem;
     margin-left: 40px;
-    margin-top: 500px;
+    margin-top: 190px;
 }
 .footer_text{
     color: #626364;;
     font-size: 17px;
     margin-left: 40px;
+    margin-top: 20px;
     width: 530px;
     height: 124px;
 }
@@ -39,6 +43,8 @@
     align-items: center;
     font-size: 17px ;
     color: #626364;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .border{
     height: 200px;

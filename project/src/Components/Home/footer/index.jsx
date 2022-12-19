@@ -15,7 +15,7 @@ export class Footer  extends Component {
         return (
             <>
                 <div className="footer" >
-                    <img className="footer_img" src={require('../assets/images/footer.jpg')} alt="" />
+                    <img className="footer_img" src={require('../../../assets/images/footer.jpg')} alt="" />
                     <div> 
                         <h1  className="footer_title">Maecenas nulla neque</h1>
                         <p className="footer_text">Phasellus dui velit, feugiat sed elit ut, facilisis 

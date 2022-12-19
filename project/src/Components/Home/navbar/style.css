@@ -1,10 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #navbar{
     background-image: url(/src/assets/images/menu.jpg);
-    margin-left: 50px;
-    margin-right: 50px;
     width: auto;
     height: 500px;
     background-size: cover;
+    background-attachment: fixed;
        }
 .ul_nb{
     color: white;
@@ -40,7 +44,7 @@
 h4{
     font-size: 40px;
     color: white;
-    padding-top: 200px;
+    padding-top: 360px;
     padding-right: 700px;
     padding-left: 60px;
     

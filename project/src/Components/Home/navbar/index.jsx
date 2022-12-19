@@ -7,7 +7,7 @@ export class NavBar  extends Component {
         return (
             
             <div id="navbar">
-                <img src="/src/assets/images/menu.jpg')}" />
+                <img src="/src/assets/images/logo.jpg" />
                 <h4>Simple House <p className="p_nb">new restaurant template</p></h4>
                  <ul className="ul_nb">
                 <li className="li_1">Home</li>
