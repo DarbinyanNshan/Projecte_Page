@@ -34,6 +34,7 @@ import noodle6 from "../../../assets/images/noodle/noodle_6.jpg"
 
 
 import { FoodBox } from "../FoodBox";
+import { Footer } from "../footer";
 
 export class Foods extends Component{
     constructor(props) {
@@ -219,8 +220,11 @@ export class Foods extends Component{
                         title={elem.title}
                         description={elem.description}
                         price={elem.price}/>
-            })}
+            })
+            }
+          
             </div>
+            <Footer/>
         </div>
     }
 }

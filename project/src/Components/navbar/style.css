@@ -15,32 +15,46 @@
     font-size: 20px;
     display: flex;
     justify-content: center;
-    list-style-type: none;
+   
     padding-left: 850px;
     
 }    
 .li_1{
     margin-right: 40px;
-    border:  solid 2px  ;
-    border-left: none;
-    border-top: none;
-    border-right: none ;
+     color: white;
+   
 }
 .li_2{
     margin-right:  40px;
+    list-style-type: none;
+    color: white;
+}
+.li_3{
+    color: white;
+}
+.li_1:hover{
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .li_2:hover{
     border:  solid 2px  ;
-    border-left: none;
-    border-top: none;
-    border-right: none ;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+   
 }
 .li_3:hover{
     border:  solid 2px  ;
-    border-left: none;
+    color: white;
     border-top: none;
-    border-right: none ;
+    border-left: none;
+    border-right: none;
+    
+
 }
+
 h4{
     font-size: 40px;
     color: white;

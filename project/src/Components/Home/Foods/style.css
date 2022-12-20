@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     padding-left: 200px;
     padding-right: 200px;
-    justify-content: space-evenly;
+    
 }
 
 .P-food-box{
@@ -30,9 +30,7 @@
     text-align: center;
 }
 .P-food-box img{
-    
-    width: 250px;
-    height: 250px;
+    padding-left: 40px;
     margin-top: 20px;
     
 
@@ -48,12 +46,14 @@
     text-align: left;
     margin-bottom: 15px;
     margin-top:10px;
+    padding-left: 40px;
 }
 .P-food-box>p{
     font-size: 0.95rem;
     color: #626364;
     line-height: 1.8;    
     text-align: start;
+    padding-left: 40px;
 }
 .P-food-box>span{
     font-size: 1.25rem;

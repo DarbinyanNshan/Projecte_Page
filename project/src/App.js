@@ -1,17 +1,22 @@
 import { Section } from './Components/Home/header';
-import { Footer } from './Components/Home/footer';
-import { NavBar } from './Components/Home/navbar';
-
+import { Section_2 } from './Components/About/header';
+import { Section_3 } from './Components/Contact/header';
+import { Com_footer } from './Components/Footer';
+import { NavBar } from './Components/navbar';
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
   return (
     <div className="App">
-    <NavBar/>
-    <Section/>
-    <Footer/>
 
-   
+   <NavBar/>
+    <Routes>
+        <Route path="/" element={<Section/>} />
+        <Route path="/about" element={<Section_2/>} />
+        <Route path="/contact" element={<Section_3/>} />
+        </Routes>
+    <Com_footer/>
   
     </div>
   );

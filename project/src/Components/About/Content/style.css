@@ -1,0 +1,50 @@
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+.title{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #09C;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.subtitle{
+    color: #C39;
+    margin-bottom: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.text{
+    color: #626364;
+    font-size: 17px;
+     width: 250px;
+     margin-left: 20px;
+}
+.icons{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.twit{
+    margin-left: 15px;
+    color: #626364;
+}
+.you{
+    margin-left: 15px;
+    color: #626364;
+}
+.insta{
+    margin-left: 15px;
+    color: #626364;
+}
+.face{
+    margin-left: 15px;
+    color: #626364;
+}
