@@ -40,3 +40,13 @@
     margin-top: 90px;
     margin-bottom: 90px;
 }
+.input_text{
+    text-align: left;
+    margin-left: 520px;
+    width: 550px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+
+    
+}

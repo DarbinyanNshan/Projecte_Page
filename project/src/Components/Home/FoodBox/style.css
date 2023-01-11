@@ -5,3 +5,10 @@
 .P-food-box img{
     width: 100%;
 }
+.P-food-box h5{
+    color: #319966;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}

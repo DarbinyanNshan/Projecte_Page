@@ -39,7 +39,8 @@ import { Footer } from "../footer";
 export class Foods extends Component{
     constructor(props) {
         super(props)
-        this.state = {
+        this.state = 
+        { 
             list: [
                 {
                     img: pizza1,
@@ -185,10 +186,12 @@ export class Foods extends Component{
                     price: '$40.50',
                     type: 'noodle'
                 },
+
+            ],
                 
 
 
-            ],
+            
             active: false,
             filterlist: []
         }

@@ -15,7 +15,7 @@ export class FoodBox extends Component{
         <img src={img} alt="nkar"/>
         <h3>{title}</h3>
         <p>{description}</p>
-        <span>{price}</span>
+        <h5>{price}</h5>
     </div>
 
     }

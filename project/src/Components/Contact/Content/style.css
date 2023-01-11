@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
 }
- .name{
+.name{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -15,6 +15,7 @@
     border-right: none;
     font-size: 25px;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 .send_btn{
     background-color: #319966;
@@ -69,3 +70,9 @@
 .addres_iconc{
     padding-left: 20px;
 } 
+.messeg{
+    font-size: 25px;
+    color: #626364;
+    width: 320px;
+    
+}

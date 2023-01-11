@@ -21,6 +21,7 @@ export const Content_Contact = () =>{
       <div className="input">
         <input className="name" type="text" placeholder="Name" /><br/>
         <input className="email" type="email" placeholder="Email" /><br/>
+        <textarea className="messeg" rows="5"  placeholder="Messeg" /><br/>
         <button className="send_btn">Send</button>
       </div>
       <div className="addres">

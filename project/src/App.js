@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Section/>} />
         <Route path="/about" element={<Section_2/>} />
         <Route path="/contact" element={<Section_3/>} />
-        </Routes>
+    </Routes>
     <Com_footer/>
   
     </div>

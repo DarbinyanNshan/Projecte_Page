@@ -20,8 +20,9 @@
     
 }    
 .li_1{
-    margin-right: 40px;
+     margin-right: 40px;
      color: white;
+     list-style-type: none;
    
 }
 .li_2{
@@ -66,7 +67,17 @@ h4{
 }
 .p_nb {
     font-size: 20px;
+    padding-left: 70px;
     
 }
 
+
+ul a {
+    text-decoration: none;
+}
+ul .active{
+    border-bottom:  solid 2px  ;
+    color: white;
+   
+}
 
